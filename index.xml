@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Перенос сайтов на платформу Госвеб on Госвеб Студия</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in Перенос сайтов на платформу Госвеб on Госвеб Студия</description>
+    <generator>Hugo</generator>
+    <language>ru_RU</language>
+    <lastBuildDate>Sun, 18 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Кто переходит на «Госвеб»? Обзор успешных кейсов</title>
+      <link>//localhost:1313/news/organization-in-gosweb/</link>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/news/organization-in-gosweb/</guid>
+      <description>Кто переходит на «Госвеб»? Обзор успешных кейсов</description>
+    </item>
+    <item>
+      <title>«Госвеб»: единая цифровая платформа для сайтов госорганизаций</title>
+      <link>//localhost:1313/news/gosweb-start/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/news/gosweb-start/</guid>
+      <description>Новые блоки для приёмной кампании и сведения о педсоставе.</description>
+    </item>
+    <item>
+      <title>ГБПОУ Политехнический</title>
+      <link>//localhost:1313/portfolio/polytech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/portfolio/polytech/</guid>
+      <description>Разработка с нуля. Приёмная кампания, интеграция с Госуслугами.</description>
+    </item>
+    <item>
+      <title>ГБУ ЦСО «Надежда»</title>
+      <link>//localhost:1313/%23/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/%23/</guid>
+      <description>Перенос с доработкой навигации, документов и мобильной версии.</description>
+    </item>
+    <item>
+      <title>МАОУ СОШ №47</title>
+      <link>//localhost:1313/portfolio/school147/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/portfolio/school147/</guid>
+      <description>Перенос с Joomla на Госвеб. Реструктуризация разделов, версия для слабовидящих.</description>
+    </item>
+    <item>
+      <title>Политика конфиденциальности</title>
+      <link>//localhost:1313/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/privacy/</guid>
+      <description>Политика конфиденциальности Госвеб Студии</description>
+    </item>
+  </channel>
+</rss>

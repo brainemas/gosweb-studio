@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Портфолио on Госвеб Студия</title>
+    <link>//localhost:1313/portfolio/</link>
+    <description>Recent content in Портфолио on Госвеб Студия</description>
+    <generator>Hugo</generator>
+    <language>ru_RU</language>
+    <atom:link href="//localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ГБПОУ Политехнический</title>
+      <link>//localhost:1313/portfolio/polytech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/portfolio/polytech/</guid>
+      <description>Разработка с нуля. Приёмная кампания, интеграция с Госуслугами.</description>
+    </item>
+    <item>
+      <title>ГБУ ЦСО «Надежда»</title>
+      <link>//localhost:1313/%23/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/%23/</guid>
+      <description>Перенос с доработкой навигации, документов и мобильной версии.</description>
+    </item>
+    <item>
+      <title>МАОУ СОШ №47</title>
+      <link>//localhost:1313/portfolio/school147/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/portfolio/school147/</guid>
+      <description>Перенос с Joomla на Госвеб. Реструктуризация разделов, версия для слабовидящих.</description>
+    </item>
+  </channel>
+</rss>

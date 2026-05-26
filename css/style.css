@@ -1,0 +1,7 @@
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', sans-serif; }
+.fade-up { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+.fade-up.visible { opacity: 1; transform: translateY(0); }
+/*.bg-transparent { background-color:  oklch(100% 0.00011 271.152 / 0.949) !important; }*/
+.nav-scrolled { background: rgba(15, 26, 74, 0.949) !important; box-shadow: 0 1px 8px rgba(0,0,0,0.06); }
+.bg-pages {background-color: rgba(15, 26, 74, 0.949);}

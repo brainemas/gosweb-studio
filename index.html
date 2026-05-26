@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Госвеб Студия</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        brand: { 50:'#EEF2FF',100:'#E0E7FF',200:'#C7D2FE',300:'#A5B4FC',400:'#818CF8',500:'#3366FF',600:'#1A46F5',700:'#1333E1',800:'#162DB6',900:'#182B8F',950:'#0F1A4A' }
+                    }
+                }
+            }
+        }
+    </script>
+    <meta name="generator" content="Hugo 0.161.1">
+</head>
+<body class="bg-white text-slate-800 antialiased">
+
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+        <a href="/" class="flex items-center gap-2.5 group">
+            <div class="w-8 h-8 rounded-lg bg-brand-900 flex items-center justify-center">
+                <iconify-icon icon="lucide:shield-check" class="text-white text-base"></iconify-icon>
+            </div>
+            <span class="font-semibold text-lg flex items-baseline transition-colors">
+                <span class="nav-logo-word text-white transition-colors">Госвеб</span>
+                <span class="text-indigo-400 ml-1">Студия</span>
+            </span>
+        </a>
+        <div class="hidden md:flex items-center gap-8">
+            
+            <a href="#advantages" class="nav-link text-sm text-white/70 hover:text-white transition-colors">Преимущества</a>
+            
+            <a href="#process" class="nav-link text-sm text-white/70 hover:text-white transition-colors">Как мы работаем</a>
+            
+            <a href="#experience" class="nav-link text-sm text-white/70 hover:text-white transition-colors">Опыт</a>
+            
+            <a href="#pricing" class="nav-link text-sm text-white/70 hover:text-white transition-colors">Стоимость</a>
+            
+            <a href="#contact" class="nav-link text-sm text-white/70 hover:text-white transition-colors">Контакты</a>
+            
+        </div>
+        <div class="flex items-center gap-3">
+            <a href="#contact" id="navCtaBtn" class="hidden sm:inline-flex items-center gap-2 px-5 py-2 bg-white text-brand-950 text-sm font-medium rounded-lg hover:bg-blue-50 transition-colors">
+                Обсудить проект
+            </a>
+            <button id="mobileMenuBtn" class="md:hidden p-2 text-white/80 hover:text-white transition-colors">
+                <iconify-icon icon="lucide:menu" class="text-xl"></iconify-icon>
+            </button>
+        </div>
+    </div>
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t border-slate-100 px-6 py-4 space-y-1">
+        
+        <a href="#advantages" class="block text-sm text-slate-700 py-2.5">Преимущества</a>
+        
+        <a href="#process" class="block text-sm text-slate-700 py-2.5">Как мы работаем</a>
+        
+        <a href="#experience" class="block text-sm text-slate-700 py-2.5">Опыт</a>
+        
+        <a href="#pricing" class="block text-sm text-slate-700 py-2.5">Стоимость</a>
+        
+        <a href="#contact" class="block text-sm text-slate-700 py-2.5">Контакты</a>
+        
+    </div>
+</nav>
+    
+
+<section class="relative min-h-[90vh] flex items-center bg-brand-950 overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-brand-950 via-brand-900/95 to-brand-800/80"></div>
+    <div class="absolute inset-0" style="background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.04) 1px, transparent 0); background-size: 32px 32px;"></div>
+    <div class="absolute top-20 right-0 w-[500px] h-[500px] rounded-full bg-brand-800/10 blur-3xl"></div>
+    <div class="relative z-10 max-w-6xl mx-auto px-6 py-32 w-full">
+        <div class="max-w-3xl">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/10 mb-8">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                <span class="text-sm font-medium text-blue-200 tracking-wide">Платформа для государственных учреждений</span>
+            </div>
+            <h1 class="text-5xl sm:text-6xl lg:text-7xl font-semibold text-white leading-[1.1] tracking-tight mb-6">
+                Перенос сайтов<br>на платформу<br>
+                <span class="bg-gradient-to-r from-blue-300 to-blue-100 bg-clip-text text-transparent">Госвеб</span>
+            </h1>
+            <p class="text-xl text-blue-200/70 font-light leading-relaxed max-w-xl mb-10">
+                Для образовательных организаций и бюджетных учреждений. Современная платформа, полное соответствие требованиям, удобство для пользователей.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="#contact" class="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-white text-brand-950 font-medium text-base rounded-lg hover:bg-blue-50 transition-colors">
+                    Обсудить перенос сайта
+                    <iconify-icon icon="lucide:arrow-right" class="text-lg"></iconify-icon>
+                </a>
+                <a href="#pricing" class="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-white/10 text-white font-medium text-base rounded-lg border border-white/15 hover:bg-white/15 transition-colors">
+                    Узнать стоимость
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="advantages" class="bg-slate-50">
+    <div class="max-w-6xl mx-auto px-6 py-24 text-center">
+        <div class="fade-up">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-slate-200 bg-white mb-5">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+                <span class="text-sm font-medium text-slate-500 tracking-wider uppercase">Преимущества</span>
+            </div>
+            <h2 class="text-4xl md:text-5xl font-semibold text-slate-900 tracking-tight mb-5">Почему стоит перейти на Госвеб?</h2>
+            <p class="text-lg text-slate-500 max-w-2xl mx-auto leading-relaxed mb-16">Платформа Госвеб объединяет в себе все необходимые инструменты для создания современного сайта, соответствующего требованиям государства</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-6 text-left">
+            <div class="bg-white rounded-xl p-7 border border-slate-200/80 fade-up hover:shadow-md transition-shadow"><div class="w-11 h-11 rounded-xl bg-brand-50 flex items-center justify-center mb-4"><iconify-icon icon="lucide:scale" class="text-brand-900 text-lg"></iconify-icon></div><h3 class="text-lg font-semibold text-slate-900 mb-2">Соответствие НПА</h3><p class="text-base text-slate-500 leading-relaxed">Полноое соответствие требованиям законодательства, приказам Минпросвещения и рекомендациям Минцифры</p></div>
+            <div class="bg-white rounded-xl p-7 border border-slate-200/80 fade-up hover:shadow-md transition-shadow"><div class="w-11 h-11 rounded-xl bg-brand-50 flex items-center justify-center mb-4"><iconify-icon icon="lucide:palette" class="text-brand-900 text-lg"></iconify-icon></div><h3 class="text-lg font-semibold text-slate-900 mb-2">Единая дизайн-система</h3><p class="text-base text-slate-500 leading-relaxed">Единая дизайн-система Госвеб с узнаваемым и современным интерфейсом</p></div>
+            <div class="bg-white rounded-xl p-7 border border-slate-200/80 fade-up hover:shadow-md transition-shadow"><div class="w-11 h-11 rounded-xl bg-brand-50 flex items-center justify-center mb-4"><iconify-icon icon="lucide:sparkles" class="text-brand-900 text-lg"></iconify-icon></div><h3 class="text-lg font-semibold text-slate-900 mb-2">Экономия ресурсов</h3><p class="text-base text-slate-500 leading-relaxed">Снимает затраты на разработку, хостинг и техническую поддержку сайта</p></div>
+            <div class="bg-white rounded-xl p-7 border border-slate-200/80 fade-up hover:shadow-md transition-shadow"><div class="w-11 h-11 rounded-xl bg-brand-50 flex items-center justify-center mb-4"><iconify-icon icon="lucide:mouse-pointer-click" class="text-brand-900 text-lg"></iconify-icon></div><h3 class="text-lg font-semibold text-slate-900 mb-2">Простое управление</h3><p class="text-base text-slate-500 leading-relaxed">Интуитивно понятная админ-панель позволяет легко обновлять информацию без специальных технических знаний</p></div>
+            <div class="bg-white rounded-xl p-7 border border-slate-200/80 fade-up hover:shadow-md transition-shadow"><div class="w-11 h-11 rounded-xl bg-brand-50 flex items-center justify-center mb-4"><iconify-icon icon="lucide:lock" class="text-brand-900 text-lg"></iconify-icon></div><h3 class="text-lg font-semibold text-slate-900 mb-2">Безопасность данных</h3><p class="text-base text-slate-500 leading-relaxed">Надёжная защита персональных данных, размещение в защищённом контуре на платформе Госуслуг</p></div>
+            <div class="bg-white rounded-xl p-7 border border-slate-200/80 fade-up hover:shadow-md transition-shadow"><div class="w-11 h-11 rounded-xl bg-brand-50 flex items-center justify-center mb-4"><iconify-icon icon="lucide:link" class="text-brand-900 text-lg"></iconify-icon></div><h3 class="text-lg font-semibold text-slate-900 mb-2">Домен *.gosuslugi.ru</h3><p class="text-base text-slate-500 leading-relaxed">Доверенный домен в зоне gosuslugi.ru, подтверждающий официальный статус вашей организации</p></div>
+        </div>
+    </div>
+</section>
+
+
+<section id="process" class="bg-white">
+    <div class="max-w-6xl mx-auto px-6 py-24">
+        <div class="grid lg:grid-cols-2 gap-16 items-start">
+            <div class="lg:sticky lg:top-28 fade-up">
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-slate-200 bg-slate-50 mb-5"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span><span class="text-sm font-medium text-slate-500 tracking-wider uppercase">Процесс</span></div>
+                <h2 class="text-4xl md:text-5xl font-semibold text-slate-900 tracking-tight mb-5">Перенос сайта на Госвеб — просто и быстро</h2>
+                <p class="text-lg text-slate-500 leading-relaxed mb-8">Мы берём на себя весь процесс переноса: от анализа текущего сайта до запуска нового. Вы получаете современный сайт без лишних забот.</p>
+                <div class="bg-brand-50 border border-brand-100 rounded-xl p-6">
+                    <div class="flex items-center gap-3 mb-2"><iconify-icon icon="lucide:database" class="text-brand-900 text-xl"></iconify-icon><h4 class="font-semibold text-brand-950 text-lg">Сохраняем весь контент</h4></div>
+                    <p class="text-base text-brand-900/60 leading-relaxed pl-9">Вся информация с вашего текущего сайта будет аккуратно перенесена</p>
+                </div>
+            </div>
+            <div class="space-y-0">
+                <div class="flex gap-5 fade-up"><div class="flex flex-col items-center"><div class="w-12 h-12 rounded-full bg-brand-900 flex items-center justify-center text-white font-bold text-lg flex-shrink-0 shadow-sm">1</div><div class="w-px flex-1 bg-slate-200 my-3"></div></div><div class="pb-10"><h3 class="text-lg font-semibold text-slate-900 mb-1.5">Анализируем текущий сайт</h3><p class="text-base text-slate-500 leading-relaxed">Изучаем структуру, контент и функциональность вашего текущего сайта, определяем объём работ</p></div></div>
+                <div class="flex gap-5 fade-up"><div class="flex flex-col items-center"><div class="w-12 h-12 rounded-full bg-brand-900 flex items-center justify-center text-white font-bold text-lg flex-shrink-0 shadow-sm">2</div><div class="w-px flex-1 bg-slate-200 my-3"></div></div><div class="pb-10"><h3 class="text-lg font-semibold text-slate-900 mb-1.5">Проектируем архитектуру</h3><p class="text-base text-slate-500 leading-relaxed">Составляем структуру разделов и страниц в соответствии с требованиями к сайтам образовательных организаций</p></div></div>
+                <div class="flex gap-5 fade-up"><div class="flex flex-col items-center"><div class="w-12 h-12 rounded-full bg-brand-900 flex items-center justify-center text-white font-bold text-lg flex-shrink-0 shadow-sm">3</div><div class="w-px flex-1 bg-slate-200 my-3"></div></div><div class="pb-10"><h3 class="text-lg font-semibold text-slate-900 mb-1.5">Создаём и наполняем</h3><p class="text-base text-slate-500 leading-relaxed">Дизайним, верстаем и наполняем сайт вашим контентом, проверяя каждую страницу</p></div></div>
+                <div class="flex gap-5 fade-up"><div class="flex flex-col items-center"><div class="w-12 h-12 rounded-full bg-brand-900 flex items-center justify-center text-white font-bold text-lg flex-shrink-0 shadow-sm">4</div></div><div><h3 class="text-lg font-semibold text-slate-900 mb-1.5">Запускаем и обучаем</h3><p class="text-base text-slate-500 leading-relaxed">Публикуем сайт, помогаем с настройкой домена и обучаем ваших сотрудников работе с платформой</p></div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="experience" class="bg-slate-50">
+    <div class="max-w-6xl mx-auto px-6 py-24 text-center">
+        <div class="fade-up max-w-3xl mx-auto">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-slate-200 bg-white mb-5"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span><span class="text-sm font-medium text-slate-500 tracking-wider uppercase">Опыт</span></div>
+            <h2 class="text-4xl md:text-5xl font-semibold text-slate-900 tracking-tight mb-5">Опыт, который работает на вас</h2>
+            <p class="text-lg text-slate-500 leading-relaxed mb-16">Мы работаем с бюджетными организациями и знаем специфику: требования к информационной открытости, доступности, структуре разделов и срокам публикации документов.</p>
+        </div>
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-5 mb-6">
+            <div class="bg-white rounded-xl p-6 border border-slate-200/80 fade-up text-left"><iconify-icon icon="lucide:sparkles" class="text-brand-900 text-2xl mb-3"></iconify-icon><h3 class="font-semibold text-slate-900 text-base mb-1.5">Аккуратность</h3><p class="text-sm text-slate-500 leading-relaxed">Каждый пиксель на своём месте. Мы тщательно прорабатываем детали, вычитываем тексты и проверяем все ссылки</p></div>
+            <div class="bg-white rounded-xl p-6 border border-slate-200/80 fade-up text-left"><iconify-icon icon="lucide:shield-check" class="text-brand-900 text-2xl mb-3"></iconify-icon><h3 class="font-semibold text-slate-900 text-base mb-1.5">Ответственность</h3><p class="text-sm text-slate-500 leading-relaxed">Соблюдаем сроки, всегда на связи. Относимся к вашему проекту как к своему собственному</p></div>
+            <div class="bg-white rounded-xl p-6 border border-slate-200/80 fade-up text-left"><iconify-icon icon="lucide:heart-handshake" class="text-brand-900 text-2xl mb-3"></iconify-icon><h3 class="font-semibold text-slate-900 text-base mb-1.5">Качество</h3><p class="text-sm text-slate-500 leading-relaxed">Стремимся сделать не просто «нормально», а красиво и максимально удобно для пользователей</p></div>
+            <div class="bg-white rounded-xl p-6 border border-slate-200/80 fade-up text-left"><iconify-icon icon="lucide:graduation-cap" class="text-brand-900 text-2xl mb-3"></iconify-icon><h3 class="font-semibold text-slate-900 text-base mb-1.5">Экспертиза</h3><p class="text-sm text-slate-500 leading-relaxed">Глубоко знаем требования к сайтам образовательных организаций и бюджетных учреждений</p></div>
+        </div>
+        <div class="grid md:grid-cols-3 gap-5">
+            <div class="bg-brand-900 rounded-xl p-7 fade-up text-left shadow-lg shadow-brand-900/10"><iconify-icon icon="lucide:school" class="text-blue-200/80 text-3xl mb-4"></iconify-icon><h3 class="text-lg font-semibold text-white mb-2">Образование</h3><p class="text-base text-blue-100/70 leading-relaxed">Создаём сайты для школ, колледжей, вузов и учреждений дополнительного образования</p></div>
+            <div class="bg-brand-900 rounded-xl p-7 fade-up text-left shadow-lg shadow-brand-900/10"><iconify-icon icon="lucide:landmark" class="text-blue-200/80 text-3xl mb-4"></iconify-icon><h3 class="text-lg font-semibold text-white mb-2">Бюджетный сектор</h3><p class="text-base text-blue-100/70 leading-relaxed">Работаем с государственными и муниципальными учреждениями, знаем все процедуры</p></div>
+            <div class="bg-brand-900 rounded-xl p-7 fade-up text-left shadow-lg shadow-brand-900/10"><iconify-icon icon="lucide:file-check" class="text-blue-200/80 text-3xl mb-4"></iconify-icon><h3 class="text-lg font-semibold text-white mb-2">Знание НПА</h3><p class="text-base text-blue-100/70 leading-relaxed">Отслеживаем все изменения в требованиях к официальным сайтам и оперативно внедряем их</p></div>
+        </div>
+    </div>
+</section>
+
+
+<section id="pricing" class="bg-white">
+    <div class="max-w-6xl mx-auto px-6 py-24">
+        <div class="text-center max-w-2xl mx-auto mb-16 fade-up">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-slate-200 bg-slate-50 mb-5"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span><span class="text-sm font-medium text-slate-500 tracking-wider uppercase">Стоимость</span></div>
+            <h2 class="text-4xl md:text-5xl font-semibold text-slate-900 tracking-tight mb-5">Прозрачные цены</h2>
+            <p class="text-lg text-slate-500 leading-relaxed">Фиксированная стоимость. Точную сумму определим после анализа текущего сайта.</p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+            <div class="bg-white rounded-xl border border-slate-200 p-8 fade-up hover:shadow-lg transition-shadow relative overflow-hidden">
+                <div class="absolute top-0 left-0 right-0 h-1 bg-brand-900"></div>
+                <div class="flex items-center justify-between mb-6"><div class="w-11 h-11 rounded-xl bg-brand-50 flex items-center justify-center"><iconify-icon icon="lucide:arrow-right-left" class="text-brand-900 text-lg"></iconify-icon></div><span class="px-3 py-1 rounded-full bg-brand-50 text-sm font-semibold text-brand-900">Популярное</span></div>
+                <h3 class="text-xl font-semibold text-slate-900 mb-2">Перенос на Госвеб</h3><p class="text-base text-slate-500 mb-6 leading-relaxed">Полный перенос существующего сайта на платформу</p>
+                <div class="flex items-baseline gap-1.5 mb-6"><span class="text-xl text-slate-400">от</span><span class="text-5xl font-bold text-brand-950">25 000</span><span class="text-xl text-slate-400">₽</span></div>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-center gap-2.5"><iconify-icon icon="lucide:check-circle-2" class="text-brand-900 text-base flex-shrink-0"></iconify-icon><span class="text-base text-slate-600">Анализ текущего сайта</span></li>
+                    <li class="flex items-center gap-2.5"><iconify-icon icon="lucide:check-circle-2" class="text-brand-900 text-base flex-shrink-0"></iconify-icon><span class="text-base text-slate-600">Перенос контента и разделов</span></li>
+                    <li class="flex items-center gap-2.5"><iconify-icon icon="lucide:check-circle-2" class="text-brand-900 text-base flex-shrink-0"></iconify-icon><span class="text-base text-slate-600">Настройка навигации и дизайна</span></li>
+                    <li class="flex items-center gap-2.5"><iconify-icon icon="lucide:check-circle-2" class="text-brand-900 text-base flex-shrink-0"></iconify-icon><span class="text-base text-slate-600">Версия для слабовидящих</span></li>
+                </ul>
+                <a href="#contact" class="block w-full text-center px-6 py-3.5 bg-brand-900 text-white font-medium text-base rounded-lg hover:bg-brand-950 transition-colors">Заказать перенос</a>
+            </div>
+            <div class="bg-white rounded-xl border border-slate-200 p-8 fade-up hover:shadow-lg transition-shadow relative overflow-hidden">
+                <div class="absolute top-0 left-0 right-0 h-1 bg-slate-200"></div>
+                <div class="w-11 h-11 rounded-xl bg-slate-100 flex items-center justify-center mb-6"><iconify-icon icon="lucide:headphones" class="text-slate-600 text-lg"></iconify-icon></div>
+                <h3 class="text-xl font-semibold text-slate-900 mb-2">Техподдержка</h3><p class="text-base text-slate-500 mb-6 leading-relaxed">Регулярное сопровождение и оперативные правки</p>
+                <div class="flex items-baseline gap-1.5 mb-6"><span class="text-xl text-slate-400">от</span><span class="text-5xl font-bold text-slate-900">2 000</span><span class="text-xl text-slate-400">₽/мес</span></div>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-center gap-2.5"><iconify-icon icon="lucide:check-circle-2" class="text-slate-300 text-base flex-shrink-0"></iconify-icon><span class="text-base text-slate-600">Мониторинг работоспособности</span></li>
+                    <li class="flex items-center gap-2.5"><iconify-icon icon="lucide:check-circle-2" class="text-slate-300 text-base flex-shrink-0"></iconify-icon><span class="text-base text-slate-600">Обновление контента по запросу</span></li>
+                    <li class="flex items-center gap-2.5"><iconify-icon icon="lucide:check-circle-2" class="text-slate-300 text-base flex-shrink-0"></iconify-icon><span class="text-base text-slate-600">Консультации по платформе</span></li>
+                    <li class="flex items-center gap-2.5"><iconify-icon icon="lucide:check-circle-2" class="text-slate-300 text-base flex-shrink-0"></iconify-icon><span class="text-base text-slate-600">Резервное копирование</span></li>
+                </ul>
+                <a href="#contact" class="block w-full text-center px-6 py-3.5 bg-white text-slate-700 font-medium text-base rounded-lg border-2 border-slate-200 hover:border-brand-900 hover:text-brand-900 transition-all">Подключить поддержку</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="portfolio" class="bg-slate-50">
+    <div class="max-w-6xl mx-auto px-6 py-24">
+        <div class="flex items-end justify-between mb-14 fade-up">
+                <div>
+                    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-slate-200 bg-white mb-5"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span><span class="text-sm font-medium text-slate-500 tracking-wider uppercase">Портфолио</span></div>
+                    <h2 class="text-4xl md:text-5xl font-semibold text-slate-900 tracking-tight">Примеры работ</h2>
+                </div>
+                
+            </div>
+        
+        Томская область совсем недавно присоединилась к платформе 
+        <a href="https://gosweb.gosuslugi.ru/" style="text-decoration: none; border-bottom: 1px dotted #0f1a4a; padding-bottom: 2px; color: #0f1a4a;" onmouseover="this.style.borderBottom='none';" onmouseout="this.style.borderBottom='1px dotted #0f1a4a';">Госвеб</a>, 
+        и мы только начали заниматься её изучением и внедрением.</br> 
+        В качестве примера работы с образовательными государственными учреждениями сайт <a href="https://rrc70.ru/" style="text-decoration: none; border-bottom: 1px dotted #0f1a4a; padding-bottom: 2px; color: #0f1a4a;" onmouseover="this.style.borderBottom='none';" onmouseout="this.style.borderBottom='1px dotted #0f1a4a';">Корпоративного университета</a> 
+        Администрации Томской области, который был разработан нами с учётом требований законодательства.
+    </div>
+</section>
+
+
+
+
+
+<section id="contact" class="bg-white">
+    <div class="max-w-6xl mx-auto px-6 py-24 text-center">
+        <div class="max-w-2xl mx-auto fade-up">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-slate-200 bg-white mb-5"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span><span class="text-sm font-medium text-slate-500 tracking-wider uppercase">Контакты</span></div>
+            <h2 class="text-4xl md:text-5xl font-semibold text-slate-900 tracking-tight mb-5">Обсудим ваш проект</h2>
+            <p class="text-lg text-slate-500 leading-relaxed mb-14">Напишите нам, чтобы обсудить перенос сайта или задать вопросы. Мы на связи в социальных сетях и мессенджерах.</p>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-4xl mx-auto">
+            <a href="mailto:info@gosweb-studio.ru" class="bg-white rounded-xl p-7 border border-slate-200/80 hover:border-brand-900 hover:bg-brand-50/30 transition-colors text-center fade-up group">
+                <div class="w-14 h-14 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center mx-auto mb-4 group-hover:bg-brand-900 group-hover:border-brand-900 transition-colors"><iconify-icon icon="lucide:mail" class="text-slate-500 text-2xl group-hover:text-white transition-colors"></iconify-icon></div>
+                <div class="text-base font-semibold text-slate-900 group-hover:text-brand-900 transition-colors">Электронная почта</div>
+            </a>
+            <a href="https://t.me/brainema" target="_blank" class="bg-white rounded-xl p-7 border border-slate-200/80 hover:border-brand-900 hover:bg-brand-50/30 transition-colors text-center fade-up group">
+                <div class="w-14 h-14 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center mx-auto mb-4 group-hover:bg-brand-900 group-hover:border-brand-900 transition-colors"><iconify-icon icon="simple-icons:telegram" class="text-slate-500 text-2xl group-hover:text-white transition-colors"></iconify-icon></div>
+                <div class="text-base font-semibold text-slate-900 group-hover:text-brand-900 transition-colors">Telegram</div>
+            </a>
+            <a href="https://vk.com/write15623184" target="_blank" class="bg-white rounded-xl p-7 border border-slate-200/80 hover:border-brand-900 hover:bg-brand-50/30 transition-colors text-center fade-up group">
+                <div class="w-14 h-14 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center mx-auto mb-4 group-hover:bg-brand-900 group-hover:border-brand-900 transition-colors"><iconify-icon icon="simple-icons:vk" class="text-slate-500 text-2xl group-hover:text-white transition-colors"></iconify-icon></div>
+                <div class="text-base font-semibold text-slate-900 group-hover:text-brand-900 transition-colors">ВКонтакте</div>
+            </a>
+            <a href="https://max.ru/u/f9LHodD0cOILYtT_Al5no1Z4QXpropksFbS5Y-JoBv0uesyO76UAwuMw4gE" target="_blank" class="bg-white rounded-xl p-7 border border-slate-200/80 hover:border-brand-900 hover:bg-brand-50/30 transition-colors text-center fade-up group">
+                <div class="w-14 h-14 rounded-2xl bg-slate-50 border border-slate-200 flex items-center justify-center mx-auto mb-4 group-hover:bg-brand-900 group-hover:border-brand-900 transition-colors"><iconify-icon icon="simple-icons:max" class="text-slate-500 text-2xl group-hover:text-white transition-colors"></iconify-icon></div>
+                <div class="text-base font-semibold text-slate-900 group-hover:text-brand-900 transition-colors">Max</div>
+            </a>
+        </div>
+    </div>
+</section>
+
+    <footer class="bg-brand-950">
+    <div class="max-w-6xl mx-auto px-6 pt-16 pb-8">
+        <div class="grid md:grid-cols-3 gap-10 mb-12">
+            <div>
+                <div class="flex items-center gap-2.5 mb-5">
+                    <div class="w-8 h-8 rounded-lg bg-brand-900 flex items-center justify-center"><iconify-icon icon="lucide:shield-check" class="text-white text-base"></iconify-icon></div>
+                    <span class="font-semibold text-lg flex items-baseline text-white">Госвеб <span class="text-indigo-400">Студия</span></span>
+                </div>
+                <p class="text-sm text-blue-200/50 leading-relaxed max-w-xs">Профессиональное создание сайтов для образовательных организаций и бюджетных учреждений.</p>
+            </div>
+            <div class="flex flex-col items-start md:items-center gap-4">
+                <h4 class="text-sm font-semibold text-white tracking-wider uppercase mb-1">Навигация</h4>
+                
+                <a href="#process" class="text-sm text-blue-200/60 hover:text-white transition-colors">Процесс</a>
+                
+                <a href="#portfolio" class="text-sm text-blue-200/60 hover:text-white transition-colors">Примеры</a>
+                
+                <a href="#pricing" class="text-sm text-blue-200/60 hover:text-white transition-colors">Стоимость</a>
+                
+                <a href="#news" class="text-sm text-blue-200/60 hover:text-white transition-colors">Новости</a>
+                
+            </div>
+            <div class="flex flex-col items-start md:items-end gap-4">
+                <h4 class="text-sm font-semibold text-white tracking-wider uppercase mb-1">Контакты</h4>
+                    <div class="flex items-center gap-5 md:justify-end">
+                        <a href="mailto:info@gosweb-studio.ru" class="text-blue-200/50 hover:text-white transition-colors"><iconify-icon icon="lucide:mail" class="text-2xl"></iconify-icon></a>
+                        <a href="https://t.me/brainema" target="_blank" class="text-blue-200/50 hover:text-white transition-colors"><iconify-icon icon="simple-icons:telegram" class="text-2xl"></iconify-icon></a>
+                        <a href="https://vk.com/write15623184" target="_blank" class="text-blue-200/50 hover:text-white transition-colors"><iconify-icon icon="simple-icons:vk" class="text-2xl"></iconify-icon></a>
+                        <a href="https://max.ru/u/f9LHodD0cOILYtT_Al5no1Z4QXpropksFbS5Y-JoBv0uesyO76UAwuMw4gE" target="_blank" class="text-blue-200/50 hover:text-white transition-colors"><iconify-icon icon="simple-icons:max" class="text-2xl"></iconify-icon></a>
+                    </div>              
+            </div>
+        </div>
+        <div class="border-t border-white/10"></div>
+        <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="text-sm text-blue-200/40">&copy; 2026 Госвеб Студия. Все права защищены.</div>
+            <a href="/privacy/" class="text-sm text-blue-200/40 hover:text-blue-200 transition-colors">Политика конфиденциальности</a>
+        </div>
+    </div>
+</footer>
+    <div id="cookieBanner" class="fixed bottom-6 right-6 z-[60] max-w-xs bg-white border border-slate-200 rounded-xl p-5 shadow-xl transition-all duration-500 opacity-0 translate-y-4 pointer-events-none">
+    <div class="flex items-start gap-3">
+        <iconify-icon icon="lucide:cookie" class="text-brand-900 text-xl flex-shrink-0 mt-0.5"></iconify-icon>
+        <div>
+            <p class="text-sm text-slate-600 leading-relaxed mb-4">Мы используем файлы cookie для улучшения работы сайта и анализа посещаемости.</p>
+            <button id="cookieAccept" class="px-4 py-2 bg-brand-900 text-white text-sm font-medium rounded-lg hover:bg-brand-950 transition-colors">Принимаю</button>
+        </div>
+    </div>
+</div>
+    <script src="/js/main.js"></script>
+</body>
+</html>

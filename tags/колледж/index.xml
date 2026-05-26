@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Колледж on Госвеб Студия</title>
+    <link>//localhost:1313/tags/%D0%BA%D0%BE%D0%BB%D0%BB%D0%B5%D0%B4%D0%B6/</link>
+    <description>Recent content in Колледж on Госвеб Студия</description>
+    <generator>Hugo</generator>
+    <language>ru_RU</language>
+    <atom:link href="//localhost:1313/tags/%D0%BA%D0%BE%D0%BB%D0%BB%D0%B5%D0%B4%D0%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ГБПОУ Политехнический</title>
+      <link>//localhost:1313/portfolio/polytech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/portfolio/polytech/</guid>
+      <description>Разработка с нуля. Приёмная кампания, интеграция с Госуслугами.</description>
+    </item>
+  </channel>
+</rss>
